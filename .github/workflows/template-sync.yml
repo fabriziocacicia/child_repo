@@ -15,5 +15,5 @@ jobs:
         uses: AndreasAugustin/actions-template-sync@v0.3.1-draft
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_repo_path: fabriziocacicia/repo_test
+          source_repo_path: fabriziocacicia/${{ secrets.REPO_NAME }}
           pr_labels: 'type: chore'
